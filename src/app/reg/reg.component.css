@@ -1,0 +1,103 @@
+.registration-container {
+    width: 90%; 
+    max-width: 600px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 50px auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button.submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button.submit-button:hover {
+    background-color: #19ba21;
+}
+
+.register-link {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.register-link a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+/* Custom footer styles */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 2px;
+    text-align: center;
+  }
+  
+  footer a {
+    color: #11d038ac;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #f8f9fa;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  .footer-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1rem;
+  }
+  
+  .footer-icons a:hover {
+    color: #11d038ac;
+  }
+  
+  .contact-info {
+    text-align: left; 
+    margin-top: 10px; 
+  }
+  
+  .contact-title {
+    padding: 0 25%;
+    border-bottom: 2px solid; 
+    margin-bottom: 10px; 
+  }
+  
+  

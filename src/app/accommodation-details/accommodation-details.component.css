@@ -1,0 +1,29 @@
+.fixed-navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  z-index: 1000;
+}
+
+.fixed-navbar button {
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.fixed-navbar button.active {
+  font-weight: bold;
+  border-bottom: 2px solid white;
+}
+
+.table-container {
+  margin-top: 60px; /* Adjust this as needed to avoid overlapping with fixed navbar */
+  padding: 20px;
+}

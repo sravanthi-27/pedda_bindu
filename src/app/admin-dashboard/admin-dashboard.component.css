@@ -1,0 +1,33 @@
+/* admin-dashboard.component.css */
+.dashboard-container {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .dashboard-navbar {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-navbar button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  
